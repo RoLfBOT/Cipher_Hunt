@@ -36,7 +36,7 @@
 			$score = $score * $sc;
 		}
 		$query1 = "UPDATE users SET Score = Score + ".$score." WHERE `TeamName` = '".$_POST['teamID']."';";
-		if($score != -5){
+		if($score != 0){
 			$query2 = "UPDATE users SET level = level + 1 WHERE `TeamName` = '".$_POST['teamID']."';";
 		}else{
 			$query2 = "SELECT * FROM USERS;";
