@@ -1,0 +1,258 @@
+body{
+				margin:0px;
+				background-image: url('images/wallppr.png');
+				background-attachment: fixed;
+			}
+			#container{
+				height:105%;
+				width:100%;
+				display:grid;
+				grid-template-columns:7% 7%  7% 7%  auto 7% 7% 7% 7%;
+				grid-template-rows:7% 7% 7% 7% 15% auto 15% 7%;
+			}
+			#logo_header{
+				grid-row:1/3;
+				grid-column:1/end;
+				background-color:#ddd;
+			}
+			#logo{
+				grid-row:1/3;
+				grid-column:3/6;
+				padding:5px 1px 2px 1px;
+			}
+			#logo_top_mob{
+				display:none;
+			}
+			#heading_name{
+				grid-row:1/3;
+				grid-column:5/7;
+				color:black;
+				font-family: 'Orbitron', sans-serif;
+				font-size:3.8vw;
+				font-weight:bolder;
+				text-align: center;
+				line-height:95px;
+				letter-spacing:1px;
+				word-spacing:3px;
+			}
+			#login_form{
+				grid-row:4/7;
+				grid-column:5/6;
+				background-color:#ddd;
+				border-radius:10px;
+			}
+			#banner{
+				color:black;
+				font-family: 'Orbitron', sans-serif;
+				font-size:2vw;
+				text-align: center;
+				margin-bottom: 4%;
+			}
+			#this_form{
+				text-align: center;
+				padding:10px 15px 8px 15px;
+			}
+			#team_name{
+				padding:10px;
+				font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				color:#696969;
+				border-radius:6px;
+				border-width:0px;
+				font-size:1.2vw;
+				width:100%;
+				text-align:center;
+				margin-bottom: 3%;
+				display:block;
+			}
+			#team_mem{
+				padding:10px;
+				font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				color:#696969;
+				border-radius:6px;
+				border-width:0px;
+				font-size:1.2vw;
+				width:40%;
+				text-align:center;
+				display:inline;
+				margin-bottom: 3%;
+			}
+			#pass{
+				padding:10px;
+				font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				color:#696969;
+				border-radius:6px;
+				border-width:0px;
+				font-size:1.2vw;
+				width:45%;
+				text-align:center;
+				display:inline;
+				margin-bottom: 3%;
+			}
+			#pass_rpt{
+				padding:10px;
+				font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				color:#696969;
+				border-radius:6px;
+				border-width:0px;
+				font-size:1.2vw;
+				width:45%;
+				text-align:center;
+				display:inline;
+				margin-bottom: 3%;
+			}
+			#e_mail{
+				padding:10px;
+				font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				color:#696969;
+				border-radius:6px;
+				border-width:0px;
+				font-size:1.2vw;
+				width:100%;
+				text-align:center;
+				display:block;
+				margin-bottom: 3%;
+			}
+			#ph_no{
+				padding:10px;
+				font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				color:#696969;
+				border-radius:6px;
+				border-width:0px;
+				font-size:1.2vw;
+				width:100%;
+				text-align:center;
+				display:block;
+				margin-bottom: 3%;
+			}
+			#sbmt{
+				width:100%;
+				display:block;
+				padding:10px;
+				font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				color:white;
+				border-radius:6px;
+				border-width:0px;
+				font-size:1.3vw;
+				font-weight:bold;
+				background-color: rgb(104, 145, 162);;
+				text-align:center;
+				transition: 0.2186s;
+			}
+			#team_name:focus{
+				outline:none;
+				-webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    			box-shadow: inset 0 2px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+			}
+			#pass:focus{
+				outline:none;
+				-webkit-box-shadow: inset 0 2px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+    			box-shadow: inset 0 2px 1px rgba(0,0,0,.075),0 0 8px rgb(104, 145, 162);
+			}
+			#sbmt:focus,#sbmt:hover{
+				outline:none;
+				cursor:pointer;
+				background-color:rgb(12, 97, 33);
+			}
+			#sbmt:active{
+				ouline:none;
+			}
+			#foot_nav{
+				grid-row:8/end;
+				grid-column:1/end;
+				background-color:#ddd;
+				margin-top:30px;
+				text-align:center;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				display:none;
+			}
+			#logo_foot_cont{
+				display:inline;
+			}
+			#logo_foot{
+				margin-left:40px;
+				margin-right:5px;
+			}
+			ul li{
+				display:inline;
+			}
+			li{
+				margin-left:50px;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+				font-size:80%;
+			}
+			li:hover{
+				cursor:pointer;
+				text-decoration: underline;
+			}
+
+			@media (max-width:800px){
+				#container{
+					display:inline-block;
+				}
+				#login_form{
+					width:100%;
+				}
+				#logo_header{
+					display:none;
+				}
+				#logo{
+					height:30%;
+					background-color:#ddd;
+					text-align:center;
+					opacity:0.8;
+					margin-top:40%;
+					display:none;
+				}
+				#logo_top{
+					width:25%;
+					display:none;
+				}
+				#logo_top_mob{
+					display:inline;
+				}
+				#heading_name{
+					background-color:#ddd;
+					text-align:center;
+					opacity:0.8;
+					font-weight:bolder;
+					font-size:8vw;
+				}
+				#login_form{
+					margin-top:15%;
+				}
+				#banner{
+					font-size:5vw;
+				}
+				#team_name{
+					font-size:3.7vw;
+				}
+				#team_mem{
+					font-size:3.7vw;
+				}
+				#pass,#pass_rpt{
+					font-size:3.7vw;
+				}
+				#e_mail{
+					font-size:3.7vw;
+				}
+				#ph_no{
+					font-size:3.7vw;
+				}
+				#sbmt{
+					font-size:3.8vw;
+				}
+				#foot_nav{
+					width:100%;
+					margin-top:16%;
+				}
+				#logo_foot_cont{
+					text-align:center;
+					display:block;
+				}
+				#logo_foot{
+					margin:5px 0px 5px -10px;
+				}
+				ul li{
+					margin:0px;
+				}
+			}
