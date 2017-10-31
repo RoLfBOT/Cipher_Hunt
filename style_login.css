@@ -199,6 +199,12 @@ body{
 				text-decoration: underline;
 			}
 
+			/* This is a comment for the stylesheet*/
+
+			#contri{
+				background: url('./');
+			}
+
 			@media (max-width:800px){
 				#container{
 					display:inline-block;
